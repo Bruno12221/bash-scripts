@@ -3,6 +3,8 @@
 
 #	usage:
 #	./scraper.sh -w "website"
+#	do not pass "/" symbol as arg in $website
+#	eg. instead of "https://app.pickle.finance/" use "app.pickle.finance"
 
 # defaults
 website="app.pickle.finance"
